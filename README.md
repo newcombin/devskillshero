@@ -16,25 +16,36 @@ Contamos entonces con dos entidades que representan esta información:
 
 > Nota: es posible votar a cada héroe múltiples veces.
 
-## Requisitos
+# REST API
 
 Debes crear un servicio con los siguientes endpoint:
 
-1. Permitir realizar un voto:
-    * Id Heroe
+## Permitir realizar un voto:
+    ### Request Data
+			{"id":14}
+    ### Response Data
+    	{"id":14,"superhero":"Thor","publisher":"Marvel Comics", "votes": 99}
 
-2. Listar los personajes que hayan recibido votos, ordenados de mayor a menor por sus votos:
-    * Id Heroe
-    * Superhero
-    * Publisher
-    * Alter Ego
-    * Votes
+## Listar los personajes que hayan recibido votos, ordenados de mayor a menor por sus votos:
+    ### Request Data
+			{}
+    ### Response Data
+    	[
+				{"id":14,"superhero":"Thor","publisher":"Marvel Comics", "alter_ego": "Thor Odinson", "votes": 99},
+				...
+    	]
+    	
 
-3. Listar la cantidad de votos por "Publisher":
-    * Publisher
-    * Votes
+## Listar la cantidad de votos por "Publisher":
+    ### Request Data
+			{}
+    ### Response Data
+    	[
+				{"publisher":"Marvel Comics", "votes": 99},
+				...
+    	]
 
-## Restricciones
+# Restricciones
 
 1. El servicio debe estar escrito en Node.js / Python
 2. El proyecto debe tener un README.md con todas las instrucciones sobre cómo ejecutar y probar el proyecto y los servicios proporcionados.
