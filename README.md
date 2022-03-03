@@ -11,10 +11,10 @@ En esencia, la API permitirá votar por un héroe y luego listar los resultados:
 
 Contamos entonces con dos entidades que representan esta información:
 
-* `heroes`: listado de heroes que se pueden votar. Los mismos se encuentran en el archivo heroes.json
+* `heroes`: listado de héroes que se pueden votar. Los mismos se encuentran en el archivo heroes.json
 * `votes`: contiene los votos realizados
 
-> Nota: es posible votar a cada heroe multiples veces.
+> Nota: es posible votar a cada héroe múltiples veces.
 
 ## Requisitos
 
@@ -23,7 +23,7 @@ Debes crear un servicio con los siguientes endpoint:
 1. Permitir realizar un voto:
     * Id Heroe
 
-2. Listar los personajes que allan recibido votos, ordenados de mayor a menor por sus votos:
+2. Listar los personajes que hayan recibido votos, ordenados de mayor a menor por sus votos:
     * Id Heroe
     * Superhero
     * Publisher
@@ -38,5 +38,5 @@ Debes crear un servicio con los siguientes endpoint:
 
 1. El servicio debe estar escrito en Node.js / Python
 2. El proyecto debe tener un README.md con todas las instrucciones sobre cómo ejecutar y probar el proyecto y los servicios proporcionados.
-3. Subir a un repositior git con privilegios publicos de lectura y compartir el link como resultado
+3. Subir a un repositorio git con privilegios públicos de lectura y compartir el link como resultado
 4. No se debe nombrar a la empresa NewCombin en la solución propuesta.
