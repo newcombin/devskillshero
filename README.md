@@ -22,28 +22,28 @@ Debes crear un servicio con los siguientes endpoint:
 
 ## Permitir realizar un voto:
     ### Request Data
-			{"id":14}
+      {"id":14}
     ### Response Data
-    	{"id":14,"superhero":"Thor","publisher":"Marvel Comics", "votes": 99}
+      {"id":14,"superhero":"Thor","publisher":"Marvel Comics", "votes": 99}
 
 ## Listar los personajes que hayan recibido votos, ordenados de mayor a menor por sus votos:
     ### Request Data
-			{}
+      {}
     ### Response Data
-    	[
-				{"id":14,"superhero":"Thor","publisher":"Marvel Comics", "alter_ego": "Thor Odinson", "votes": 99},
-				...
-    	]
-    	
+      [
+        {"id":14,"superhero":"Thor","publisher":"Marvel Comics", "alter_ego": "Thor Odinson", "votes": 99},
+        ...
+      ]
+      
 
 ## Listar la cantidad de votos por "Publisher":
     ### Request Data
-			{}
+      {}
     ### Response Data
-    	[
-				{"publisher":"Marvel Comics", "votes": 99},
-				...
-    	]
+      [
+        {"publisher":"Marvel Comics", "votes": 99},
+        ...
+      ]
 
 # Restricciones
 
