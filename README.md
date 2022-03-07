@@ -23,7 +23,7 @@ Debes crear un servicio con los siguientes endpoint:
 ## Permitir realizar un voto:
     ### HTTP Request
       POST .../api/v1/votes
-    ### Request
+    ### Request Data
       { 
         "id": 14
       }
