@@ -25,7 +25,7 @@ Debes crear un servicio con los siguientes endpoint:
       POST .../api/v1/votes
     ### Request Data
       { 
-        "id": 14
+        "superhero": "Thor"
       }
     ### Response
       {
@@ -48,11 +48,11 @@ Debes crear un servicio con los siguientes endpoint:
           "votes": 99
         },
         { 
-          "id": 14,
+          "id": 2,
           "superhero":"Superman",
           "publisher":"DC Comics",
           "alter_ego": "Kal-El",
-          "votes": 99
+          "votes": 10
         },
         ...
       ]
@@ -69,7 +69,7 @@ Debes crear un servicio con los siguientes endpoint:
         },
         {
           "publisher":"Marvel Comics",
-          "votes": 99
+          "votes": 80
         },
         ...
       ]
